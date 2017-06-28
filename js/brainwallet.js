@@ -68,6 +68,22 @@
             private_prefix: 0x6f+0x80,
             bip32_public: LITECOIN_TESTNET_PUBLIC,
             bip32_private: LITECOIN_TESTNET_PRIVATE
+        },
+        part_main: {
+            name: "Particl",
+            network: "Mainnet",
+            prefix: 0x38,
+            private_prefix: 0x38+0x80,
+            bip32_public: PARTICL_MAINNET_PUBLIC,
+            bip32_private: PARTICL_MAINNET_PRIVATE
+        },
+        part_test: {
+            name: "Particl",
+            network: "Testnet",
+            prefix: 0x76,
+            private_prefix: 0x76+0x80,
+            bip32_public: PARTICL_TESTNET_PUBLIC,
+            bip32_private: PARTICL_TESTNET_PRIVATE
         }
     };
 
